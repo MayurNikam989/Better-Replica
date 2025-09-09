@@ -1,0 +1,46 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255,255,255,.85);
+  backdrop-filter: saturate(180%) blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 1rem;
+  padding: .75rem 0;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
+  font-weight: 800;
+  letter-spacing: .2px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: var(--brand);
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  a { padding: .5rem .6rem; border-radius: .6rem; }
+  a:hover { background: #f3f4f6; }
+}
+
+.active {
+  background: #eefbf3;
+  color: var(--brand-700);
+}
+
+.actions { display: flex; align-items: center; gap: .75rem; }
