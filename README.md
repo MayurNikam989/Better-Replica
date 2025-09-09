@@ -28,4 +28,3 @@ npm run build && npm start
 ## Notes
 - This project intentionally avoids any Better.com trademarks, logos, or proprietary assets.
 - The calculator uses the standard amortization formula to compute principal & interest, then adds taxes/insurance/HOA.
-- URL query string stays in sync for `taxes` and `zip` on the calculator page.
